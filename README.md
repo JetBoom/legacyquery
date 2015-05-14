@@ -1,5 +1,10 @@
 # legacyquery
-GMod server browser code that uses the old master server protocol to return 100% of the servers rather than those limited to your geoip location. READ THE BELOW ITEMS.
+GMod server browser code that uses the old master server protocol to return 100% of the servers rather than those limited to your geoip location. READ THE BELOW ITEMS AND BACKUP YOUR LUA/MENU FOLDER!
+
+# REQUIREMENTS
+You need GLSock2
+You can get it from https://code.google.com/p/mattmodules/source/browse/#svn%2Ftrunk%2Fgm_glsock%2FRelease
+The binaries go in to garrysmod/lua/bin
 
 # TODO: 
 * Need to convert PHP script to Lua. The server list is actually from a php job so there's a high chance you're not even getting the updated server list.
